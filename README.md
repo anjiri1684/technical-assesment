@@ -6,7 +6,7 @@ This project implements a **Responsive Card Layout** concept that solves various
 ### Key Features
 1. **Responsive Design**: The card layout adjusts dynamically to different screen sizes (mobile, tablet, desktop).
 2. **Flexbox Layout**: Items are organized using Flexbox, allowing smooth alignment and flexible arrangements.
-3. **Interactive Filters**: Dynamic buttons allow filtering data by specific categories (e.g., food types, product categories, job types, etc.).
+3. **Interactive Filters**: Dynamic buttons allow filtering data by specific categories .
 4. **Optimized for Performance**: The layout ensures optimal performance, improving load times and accessibility on mobile devices.
 
 ## Real-World Use Cases
