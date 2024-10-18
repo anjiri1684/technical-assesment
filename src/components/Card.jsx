@@ -65,7 +65,7 @@ const ChuckNorrisJokes = () => {
       {error && <p>{error}</p>}
 
       <div className="food__container">
-        {jokes.length > 0 &&
+        {jokes.length > 0 ? (
           jokes.map((joke) => (
             <section className="food__card" key={joke.id}>
               <img src={joke.icon_url} alt="Chuck Norris Icon" />
@@ -83,7 +83,10 @@ const ChuckNorrisJokes = () => {
                 <p>{joke.value}</p>
               </div>
             </section>
-          ))}
+          ))
+        ) : (
+          <p>No food jokes for selected category</p>
+        )}
       </div>
     </div>
   );
